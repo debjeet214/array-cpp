@@ -5,7 +5,7 @@ void printarray(int *arr, int b){
         cout<<arr[i]<<" ";
     }
 }
-void merge(int* a, int mid, int high, int low){
+void merge(int* a, int mid, int low, int high){
     int i, j, k, b[100];
     i = low;
     j = mid +1;
